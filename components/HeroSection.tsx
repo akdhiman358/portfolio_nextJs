@@ -29,6 +29,9 @@ import { TextGenerateEffect } from './ui/text-generate'
             </Link>
 
         </div>
+
+      
+
         <div>
             <div className='w-72 h-72 space-y-3 -rotate-[30deg] relative'>
                 <div className='flex gap-3 translate-x-8'>
@@ -37,12 +40,13 @@ import { TextGenerateEffect } from './ui/text-generate'
 
                     <motion.div 
                      animate={{ rotate: 360 }} // Rotate 360 degrees
-                     transition={{ duration: 2, loop: Infinity, ease: "linear" }} // Set animation duration, looping, and easing
+                     transition={{ duration: 2, loop: Infinity, repeat: Infinity, ease: "linear" }} // Set animation duration, looping, and easing
                     
                     className='w-32 h-32 rounded-2xl bg-green-500'></motion.div>
                     <motion.div
                         animate={{ scale: [1, 1.2, 1] }} // Expands to 1.5x size, then shrinks back to 1x
-                        transition={{ duration: 2,loop: Infinity, yoyo: Infinity }} // Set duration, loop back and forth
+                        
+                        transition={{ duration: 2,loop: Infinity, yoyo: Infinity, }} // Set duration, loop back and forth
                         className='w-32 h-32 rounded-full bg-indigo-500'></motion.div>
                 </div>
                 <div className='flex gap-3 -translate-x-8'>
@@ -54,7 +58,7 @@ import { TextGenerateEffect } from './ui/text-generate'
                      className='w-32 h-32 rounded-2xl bg-indigo-500'></motion.div>
                      <motion.div
                         animate={{ scale: [1, 1.2, 1] }} // Expands to 1.5x size, then shrinks back to 1x
-                        transition={{ duration: 2,loop: Infinity, yoyo: Infinity }} // Set duration, loop back and forth
+                        transition={{ duration: 2,loop: Infinity, yoyo: Infinity,repeat: Infinity }} // Set duration, loop back and forth
                         className='w-32 h-32 rounded-full bg-green-500'></motion.div>
                 </div>
                 

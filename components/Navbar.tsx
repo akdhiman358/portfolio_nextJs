@@ -7,19 +7,19 @@ function    Navbar({className}:{className? : string})
 {
     const socials = [
         {
-            link:"",
+            link:"https://linkedin.com/in/akshay-u-d",
             icon: SiLinkedin ,
             label:'LinkedIn',
 
         },
         {
-            link:"",
+            link:"https://github.com/akdhiman358",
             icon:SiGithub,
             label:'Github',
 
         },
         {
-            link:"",
+            link:"https://x.com/Akshay_u_d",
             icon: SiX,
             label:'X',
 
