@@ -13,7 +13,7 @@ function Projects() {
     const projects =[
         {
             title:' gpt-3 Landing Page',
-            tech:[FaReact,,SiTailwindcss,TbBrandJavascript],
+            tech:[FaReact,SiTailwindcss,TbBrandJavascript],
             link:'https://travelcampingage.netlify.app/',
             cover:'/images/project-1.png',
             background:'bg-indigo-200'
@@ -56,10 +56,10 @@ function Projects() {
                                 <h2 className='text-2xl font-bold '>{project.title}</h2>
                                 <div className='flex gap-2 items-center'>
                                     {
-                                        project.tech.map((Icon, idx)=>{
-                                        return  <Icon key={idx}
+                                        project.tech.map((Icon, index)=>{
+                                        return  <Icon key={index}
                                                     className='h-8 w-8'
-                                                    />
+                                                    />;
                                             
                                         
                                         })
