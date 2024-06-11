@@ -27,7 +27,7 @@ function    Navbar({className}:{className? : string})
     ]   
   return (  
 <nav className={cn('py-10 flex justify-between items-center',className)}>
-    <h1 className='text-2xl underline underline-offset-8 decoration-green-500 rotate-6 hover:-rotate-0'>Akshay 🧔🏻</h1>
+    <h1 className='text-3xl font-semibold underline underline-offset-8 decoration-green-500 '>Akshay 🧔🏻</h1>
 
     <div className='flex gap-5 items-center'>
         {socials.map((item,index)=>(

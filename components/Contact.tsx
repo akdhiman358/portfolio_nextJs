@@ -49,9 +49,9 @@ const Contact = () => {
 
   return (
     <div className="my-10">
-      <Title text="Contact Me " className="flex flex-col items-center justify-center rotate-[10deg]" />
+      <Title text="Contact Me " className="flex flex-col items-center justify-center " />
       <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col space-y-4 px-5">
-        <label htmlFor="name" className="text-gray-700 font-medium">
+        <label htmlFor="name" className="text-white font-medium">
           Your Name
         </label>
         <input
@@ -63,7 +63,7 @@ const Contact = () => {
           className="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-red-700"
           required
         />
-        <label htmlFor="email" className="text-gray-700 font-medium">
+        <label htmlFor="email" className="text-white font-medium">
           Your Email
         </label>
         <input
@@ -75,7 +75,7 @@ const Contact = () => {
           className="px-3 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-1 focus:ring-red-700"
           required
         />
-        <label htmlFor="message" className="text-gray-700 font-medium">
+        <label htmlFor="message" className="text-white font-medium">
           Your Message
         </label>
         <textarea

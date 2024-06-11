@@ -43,7 +43,7 @@ function Skills() {
   ]
   return (
     <div className='max-w-5xl mx-auto px-8  '>
-        <Title text='Skills 🤹🏻' className='flex flex-col items-center rotate-[-8deg]'></Title>
+        <Title text='Skills 🤹🏻' className='flex flex-col items-center '></Title>
         <HoverEffect items = {skills}/>
     </div>
   )

@@ -43,7 +43,7 @@ function Projects() {
   return (
     
         <div className='py-10 px-5'>
-            <Title text='Projects ⚒️' className='flex flex-col items-center rotate-[-8deg]'></Title>
+            <Title text='Projects ⚒️' className='flex flex-col items-center '></Title>
             <div className='grid grid-cols-1 lg:grid-cols-2 pt-20 gap-5'>
                 {projects.map((project,idx)=>(
                     <Link href={project.link} key={idx}>

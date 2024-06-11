@@ -9,7 +9,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="min-h-[400vh] overflow-hidden dark:bg-dot-yellow-400/[0.2] bg-dot-yellow-400/[0.3] pb-20">
+    <div className="min-h-[400vh] overflow-hidden dark:bg-dot-yellow-400/[0.4] bg-dot-yellow-400/[0.3] pb-20">
       <div className="max-w-7xl mx-auto px-5 ">
        <Navbar />
        <HeroSection />
