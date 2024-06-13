@@ -14,7 +14,7 @@ function Projects() {
         {
             title:' gpt-3 Landing Page',
             tech:[FaReact,SiTailwindcss,TbBrandJavascript],
-            link:'https://travelcampingage.netlify.app/',
+            link:'https://fabulous-stroopwafel-cdb737.netlify.app/',
             cover:'/images/project-1.png',
             background:'bg-indigo-200'
         },
