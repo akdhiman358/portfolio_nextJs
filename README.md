@@ -5,6 +5,9 @@ This project is a dynamic and visually stunning personal portfolio website built
 ## Live Site: 
 [akshay-u-d.netlify.app](https://akshay-u-d.netlify.app/)
 
+## Screenshot
+![Portfolio Screenshot](path/to/screenshot.png)
+
 ## Features
 > Modern Design: A clean and modern design to make a great first impression.
 > Responsive Layout: Fully responsive design ensuring optimal user experience on all devices.
@@ -81,11 +84,11 @@ or
 Copy code
 yarn start
 ```
-Deploying
+### Deploying
 This project can be deployed to any static site hosting service. Netlify is used for the live version.
 
-Contributing
+### Contributing
 If you have suggestions for improvements or encounter any issues, feel free to open an issue or submit a pull request.
 
-Contact
+### Contact
 For any inquiries, please reach out to me via akshayud0@gmail.com
