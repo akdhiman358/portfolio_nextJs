@@ -9,17 +9,17 @@ This project is a dynamic and visually stunning personal portfolio website built
 ![Portfolio Screenshot](Screenshot.png)
 
 ## Features
-> Modern Design: A clean and modern design to make a great first impression.
-> Responsive Layout: Fully responsive design ensuring optimal user experience on all devices.
-> Interactive Animations: Smooth and engaging animations powered by Framer Motion.
-> Project Showcase: Detailed descriptions, live links, and visual previews of selected projects.
-> SEO Optimized: Ensures better visibility on search engines.
+- Modern Design: A clean and modern design to make a great first impression.
+- Responsive Layout: Fully responsive design ensuring optimal user experience on all devices.
+- Interactive Animations: Smooth and engaging animations powered by Framer Motion.
+- Project Showcase: Detailed descriptions, live links, and visual previews of selected projects.
+- SEO Optimized: Ensures better visibility on search engines.
 
 ## Technologies Used
-> Next.js: React framework for server-side rendering and static site generation.
-> React: JavaScript library for building user interfaces.
-> Tailwind CSS: Utility-first CSS framework for styling.
-> Framer Motion: Library for creating animations and gestures.
+- Next.js: React framework for server-side rendering and static site generation.
+- React: JavaScript library for building user interfaces.
+- Tailwind CSS: Utility-first CSS framework for styling.
+- Framer Motion: Library for creating animations and gestures.
 
 ## Getting Started
 Prerequisites
