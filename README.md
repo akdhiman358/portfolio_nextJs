@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Personal Portfolio Website
+## Project Description
+This project is a dynamic and visually stunning personal portfolio website built using Next.js, React, Tailwind CSS, and Framer Motion. The portfolio showcases a curated selection of my projects, providing detailed descriptions, live links, and visual previews to demonstrate my skills and expertise in front-end development.
+
+## Live Site: akshay-u-d.netlify.app
+
+## Features
+> Modern Design: A clean and modern design to make a great first impression.
+> Responsive Layout: Fully responsive design ensuring optimal user experience on all devices.
+> Interactive Animations: Smooth and engaging animations powered by Framer Motion.
+> Project Showcase: Detailed descriptions, live links, and visual previews of selected projects.
+> SEO Optimized: Ensures better visibility on search engines.
+
+## Technologies Used
+> Next.js: React framework for server-side rendering and static site generation.
+> React: JavaScript library for building user interfaces.
+> Tailwind CSS: Utility-first CSS framework for styling.
+> Framer Motion: Library for creating animations and gestures.
 
 ## Getting Started
+Prerequisites
+Node.js
+npm (or yarn)
 
-First, run the development server:
+# Installation
+Clone the repository:
+```bash
+Copy code
+git clone https://github.com/yourusername/portfolio.git
+```
+Navigate to the project directory:
+```bash
+Copy code
+cd portfolio
+```
+Install dependencies:
+```bash
+Copy code
+npm install
+```
+or
+```bash
+Copy code
+yarn install
+```
+Running the Development Server
+```bash
+Copy code
+npm run dev
+```
+or
 
 ```bash
-npm run dev
-# or
+Copy code
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open http://localhost:3000 in your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Building for Production
+```bash
+Copy code
+npm run build
+```
+or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+Copy code
+yarn build
+```
+Running in Production Mode
+After building the project, you can start it in production mode with:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+Copy code
+npm start
+```
+or
 
-## Learn More
+```bash
+Copy code
+yarn start
+```
+Deploying
+This project can be deployed to any static site hosting service. Netlify is used for the live version.
 
-To learn more about Next.js, take a look at the following resources:
+Contributing
+If you have suggestions for improvements or encounter any issues, feel free to open an issue or submit a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Contact
+For any inquiries, please reach out to me via akshayud0@gmail.com
