@@ -30,7 +30,7 @@ npm (or yarn)
 Clone the repository:
 ```bash
 Copy code
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/akdhiman358/portfolio_nextJs.git
 ```
 Navigate to the project directory:
 ```bash
