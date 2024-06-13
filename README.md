@@ -1,8 +1,9 @@
-### Personal Portfolio Website
+# Personal Portfolio Website
 ## Project Description
 This project is a dynamic and visually stunning personal portfolio website built using Next.js, React, Tailwind CSS, and Framer Motion. The portfolio showcases a curated selection of my projects, providing detailed descriptions, live links, and visual previews to demonstrate my skills and expertise in front-end development.
 
-## Live Site: akshay-u-d.netlify.app
+## Live Site: 
+[akshay-u-d.netlify.app](https://akshay-u-d.netlify.app/)
 
 ## Features
 > Modern Design: A clean and modern design to make a great first impression.
