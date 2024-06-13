@@ -6,7 +6,7 @@ This project is a dynamic and visually stunning personal portfolio website built
 [akshay-u-d.netlify.app](https://akshay-u-d.netlify.app/)
 
 ## Screenshot
-![Portfolio Screenshot](path/to/screenshot.png)
+![Portfolio Screenshot](screenshot(92).png)
 
 ## Features
 > Modern Design: A clean and modern design to make a great first impression.
